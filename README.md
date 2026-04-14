@@ -1,5 +1,5 @@
 # SEMCo
-This repository contains code and resources for the SIGIR 2026 short paper submission "Sparse Contrastive Learning for Content-Based Cold Item Recommendation". The [model implementations](https://github.com/gmeehan96/SEMCo/tree/main/models) of our SEMCo variants are based on [ColdRec](https://github.com/YuanchenBei/ColdRec). We include the final hyperparameter values for each dataset in the model training scripts. To run a particular configuration, use a command of the form
+This repository contains code and resources for the SIGIR 2026 short paper "Sparse Contrastive Learning for Content-Based Cold Item Recommendation". The [model implementations](https://github.com/gmeehan96/SEMCo/tree/main/models) of our SEMCo variants are based on [ColdRec](https://github.com/YuanchenBei/ColdRec). We include the final hyperparameter values for each dataset in the model training scripts. To run a particular configuration, use a command of the form
 ```
 python main_SEMCo.py --dataset [dataset_name] --fn sparsemax
 ```
